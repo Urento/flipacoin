@@ -70,7 +70,7 @@ const MenuLinks = ({ isOpen }: MenuLinksProps) => {
         <MenuItem to="/">Home</MenuItem>
         <MenuItem to="/leaderboard">Leaderboard </MenuItem>
         <MenuItem to="/stats">Stats </MenuItem>
-        <MenuItem to="/signup" isLast>
+        <MenuItem to="/auth" isLast>
           <Button
             size="sm"
             rounded="md"
